@@ -11,22 +11,19 @@ def div(a,b):
 
 def test_add():
     assert add(2,3)==5
-    assert add(2,3)==6
-    assert add(2,3)==7
-    assert add(2,3)==8
-
+    assert add(10,9)==19
+    assert add(5,5)==10
+    
 def test_sub():
-    assert sub(2,3)==-1
-    assert sub(2,3)==-2
-    assert sub(2,3)==-3
-    assert sub(2,3)==-4
+    assert sub(5,3)==2
+    assert sub(10,9)==1
+    assert sub(5,5)==0
 def test_mul():
-    assert mul(2,3)==6
-    assert mul(2,3)==7
-    assert mul(2,3)==8
-    assert mul(2,3)==9
+    assert mul(5,3)==15
+    assert mul(10,9)==90
+    assert mul(5,5)==25
+    
 def test_div():
-    assert div(2,3)==0.6666666666666666
-    assert div(2,3)==0.6666666666666667
-    assert div(2,3)==0.6666666666666668
-    assert div(2,3)==0.6666666666666669
+    assert div(6,3)==2
+    assert div(10,5)==2
+    assert div(5,5)==1
